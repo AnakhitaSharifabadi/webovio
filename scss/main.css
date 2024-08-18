@@ -1,1 +1,79 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: 0;
+  font-style: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-style: poppins;
+}
+
+.container {
+  min-width: 1170px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.slider {
+  background-image: url(../../img/bitmap.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 188px;
+  padding-bottom: 211px;
+  min-height: 810px;
+}
+
+.slider-text-box {
+  max-width: 616px;
+  margin-left: 166px;
+}
+
+.slider-p1 {
+  color: white;
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+
+.slider-h1 {
+  color: white;
+  font-family: Poppins;
+  font-size: 60px;
+  line-height: 74px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.slider-p2 {
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 45px;
+}
+
+.slider-link {
+  color: #FFD723;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+header {
+  position: absolute;
+}/*# sourceMappingURL=main.css.map */
