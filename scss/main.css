@@ -19,9 +19,21 @@ body {
 }
 
 .container {
-  min-width: 1170px;
+  max-width: 1170px;
   padding: 0 30px;
   margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+    max-width: 1150px;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    padding: 0 10px;
+    max-width: 1130px;
+  }
 }
 
 .slider {
@@ -35,7 +47,6 @@ body {
 
 .slider-text-box {
   max-width: 616px;
-  margin-left: 166px;
 }
 
 .slider-p1 {
@@ -76,4 +87,33 @@ body {
 
 header {
   position: absolute;
+  width: 100%;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients {
+  width: 100%;
+  padding: 60px 65px;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  position: absolute;
+  transform: translateY(-50%);
+  max-width: 1276px;
+  z-index: 10;
+  right: 0;
+}
+@media (max-width: 768px) {
+  .clients {
+    padding: 30px 35px;
+  }
+}
+@media (max-width: 425px) {
+  .clients {
+    padding: 15px 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
