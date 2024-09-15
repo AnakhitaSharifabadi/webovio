@@ -9,6 +9,7 @@
 }
 
 .project-item{
+    // flex-direction: row-reverse;
 display: flex;
 position: relative;
 }
@@ -40,21 +41,61 @@ color: $p-color;
 
 
 .project-box1{
-   padding-left: 50px;
+   padding-left: 110px;
   
     
 
 }
 
 .project-box2{
-border: 1px solid red;
+
 padding: 30px 35px;
 width: 450px;
 min-height: 210px;
 box-shadow: 50px 50px 100px rgba(0,0,0,.145947);
 border-radius: 8px;
+position: absolute;
+right: 60px;
+bottom: -60px;
+background-color: white;
+z-index: 10;
+right: -60px;
+}
+.box2-text{
+    font-family: Poppins;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+margin-bottom: 24px;
+
+
+}
+.box2-container{
+    display: flex;
+    
+}
+.box2-title{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: $text-color;
+font-style: normal;
+padding-top: 24px;
 }
 
+
+.box2-subtitle{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+color: #152934;
+}
 
 .title-project{
     font-family: Poppins;
@@ -103,4 +144,7 @@ color: $p-color;
 }
 .link-project:hover>svg {
     fill: $hover-color; 
+}
+.project-items-left{
+    position: relative;
 }
