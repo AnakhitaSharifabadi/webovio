@@ -1,0 +1,86 @@
+.main-inf-project{
+    margin-right: 165px;
+    display: flex;
+}
+.title-inf-project{
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 54px;
+   color: $text-color;
+   width: 325px;
+    
+}
+.p-inf-project{
+    
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 26px;
+   font-size: 16px;
+   width: 518px;
+   height: 78px;
+   margin-top: 12px; 
+margin-left: 458px;
+color: $p-color;
+}
+
+
+
+.project-box1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+    
+    
+
+}
+.title-project{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+width: 475px;
+height: 104px;
+gap: 0px;
+opacity: 0px;
+color: $text-color;
+
+
+}
+
+.project-p{
+    width: 421px;
+height: 156px;
+top: 128px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color: $p-color;
+}
+
+.link-project{
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 14px;
+    margin-bottom: 7px;
+    color: $link-color;
+    display: block;
+
+}
+.link-project:hover{
+    color: $hover-color;
+
+}
+.link-project svg{
+    fill: $link-color;
+}
+.link-project:hover>svg {
+    fill: $hover-color; 
+}

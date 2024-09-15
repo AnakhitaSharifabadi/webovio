@@ -1,0 +1,68 @@
+.services-box{
+border:1px solid green;
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+padding-bottom: 150px;
+border-bottom: 1px solid rgba(33,56,66,.0941176471);
+padding-top: 250px;
+
+}
+
+
+
+
+.services-item{
+//   width: 100%;
+//     max-width:  474px;
+//     left: 800px;
+//     background-color: #FFFFFF;
+//     position: absolute;
+//     box-shadow: 0px 100px 100px 0px #00000025;
+//     left: 165px;
+    border: 1px solid yellow;
+
+ }
+ .services-subtitle{
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 15px;
+    color: $text-color;
+ }
+.services-title{
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 35px;
+    color: $text-color;
+}
+.services-text{
+    line-height: 26px;
+    font-family: Poppins;
+    margin-bottom: 42px;
+    color:  rgba(33, 56, 66, .6);
+    
+}
+.services-link{
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 14px;
+    margin-bottom: 7px;
+    color: $link-color;
+    display: block;
+
+}
+.services-link:hover{
+    color: $hover-color;
+
+}
+.services-link svg{
+    fill: $link-color;
+}
+.services-link:hover>svg {
+    fill: $hover-color; 
+}
