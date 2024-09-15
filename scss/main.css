@@ -186,6 +186,11 @@ header {
   padding-bottom: 110px;
 }
 
+.project-item {
+  display: flex;
+  position: relative;
+}
+
 .title-inf-project {
   font-size: 36px;
   font-family: Poppins;
@@ -205,9 +210,16 @@ header {
 }
 
 .project-box1 {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  padding-left: 50px;
+}
+
+.project-box2 {
+  border: 1px solid red;
+  padding: 30px 35px;
+  width: 450px;
+  min-height: 210px;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 8px;
 }
 
 .title-project {
@@ -216,11 +228,9 @@ header {
   font-weight: 700;
   line-height: 48px;
   text-align: left;
-  width: 475px;
-  height: 104px;
-  gap: 0px;
   opacity: 0px;
   color: #4d533c;
+  margin-bottom: 24px;
 }
 
 .project-p {
