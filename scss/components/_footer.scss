@@ -1,0 +1,28 @@
+footer{
+  background-color:  $footer-b-color; 
+  color: $footer-t-color;
+}
+
+footer h5 {
+font-family: Poppins;
+margin-bottom: 20px;
+font-size: 16px;
+line-height:38px ;
+text-transform:uppercase ;
+color: white;
+}
+ 
+.footer-top{
+   padding-bottom: 52px;
+   padding-top: 310px;
+   border-bottom:  1px solid #5d6544;
+   display: flex;
+   gap: 70px;
+}
+.footer-main{
+    display: flex;
+}
+.footer-main-list{
+    display: flex;
+    gap: 70px;
+}

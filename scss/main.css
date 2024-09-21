@@ -179,6 +179,16 @@ header {
   fill: #FFD723;
 }
 
+.service-p {
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  color: #4d533c;
+}
+
 .main-inf-project {
   padding-top: 150px;
   display: flex;
@@ -310,4 +320,96 @@ header {
 
 .project-items-left {
   position: relative;
+}
+
+.project-item2 {
+  flex-direction: row-reverse;
+  display: flex;
+  position: relative;
+}
+
+footer {
+  background-color: #4f553d;
+  color: #b6c197;
+}
+
+footer h5 {
+  font-family: Poppins;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.footer-top {
+  padding-bottom: 52px;
+  padding-top: 310px;
+  border-bottom: 1px solid #5d6544;
+  display: flex;
+  gap: 70px;
+}
+
+.footer-main {
+  display: flex;
+}
+
+.footer-main-list {
+  display: flex;
+  gap: 70px;
+}
+
+.product-idea-title {
+  width: 607px;
+  height: 92px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: left;
+  color: #4d533c;
+}
+
+.product-idea-list {
+  display: flex;
+}
+
+.product-idea-small-title {
+  width: 183px;
+  height: 68px;
+  top: 27px;
+  left: 30px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  text-align: left;
+  color: #4d533c;
+}
+
+.product-idea-p {
+  width: 194px;
+  height: 78px;
+  top: 115px;
+  left: 30px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgba(33, 56, 66, 0.6);
+}
+
+.start-title {
+  width: 822px;
+  height: 148px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 74px;
+  text-align: left;
+  color: #4d533c;
 }/*# sourceMappingURL=main.css.map */
