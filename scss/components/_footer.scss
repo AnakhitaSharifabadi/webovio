@@ -1,6 +1,8 @@
 footer{
   background-color:  $footer-b-color; 
   color: $footer-t-color;
+  position: relative;
+ 
 }
 
 footer h5 {
@@ -14,15 +16,24 @@ color: white;
  
 .footer-top{
    padding-bottom: 52px;
-   padding-top: 310px;
+   padding-top: 350px;
    border-bottom:  1px solid #5d6544;
    display: flex;
    gap: 70px;
 }
 .footer-main{
     display: flex;
+    
 }
 .footer-main-list{
     display: flex;
     gap: 70px;
+    padding: 0;
+   
 }
+.footer-secondary-list{
+flex-direction: column;
+gap: 25px;
+display: flex;
+}
+

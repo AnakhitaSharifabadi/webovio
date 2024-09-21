@@ -331,6 +331,7 @@ header {
 footer {
   background-color: #4f553d;
   color: #b6c197;
+  position: relative;
 }
 
 footer h5 {
@@ -344,7 +345,7 @@ footer h5 {
 
 .footer-top {
   padding-bottom: 52px;
-  padding-top: 310px;
+  padding-top: 350px;
   border-bottom: 1px solid #5d6544;
   display: flex;
   gap: 70px;
@@ -357,6 +358,13 @@ footer h5 {
 .footer-main-list {
   display: flex;
   gap: 70px;
+  padding: 0;
+}
+
+.footer-secondary-list {
+  flex-direction: column;
+  gap: 25px;
+  display: flex;
 }
 
 .product-idea-title {
@@ -370,18 +378,18 @@ footer h5 {
   line-height: 46px;
   text-align: left;
   color: #4d533c;
+  margin-bottom: 60px;
+  max-width: 607px;
 }
 
 .product-idea-list {
   display: flex;
+  gap: 25px;
 }
 
 .product-idea-small-title {
-  width: 183px;
-  height: 68px;
-  top: 27px;
-  left: 30px;
-  gap: 0px;
+  max-width: 194px;
+  margin-bottom: 30px;
   opacity: 0px;
   font-family: Poppins;
   font-size: 24px;
@@ -389,16 +397,22 @@ footer h5 {
   line-height: 34px;
   text-align: left;
   color: #4d533c;
+  margin-bottom: 20px;
 }
 
 .product-idea-p {
-  width: 194px;
+  max-width: 194px;
   height: 78px;
-  top: 115px;
-  left: 30px;
-  gap: 0px;
-  opacity: 0px;
+  margin-bottom: 30px;
   color: rgba(33, 56, 66, 0.6);
+}
+
+.product-idea-item {
+  padding: 35px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .start-title {
@@ -412,4 +426,17 @@ footer h5 {
   line-height: 74px;
   text-align: left;
   color: #4d533c;
+}
+
+.start {
+  position: absolute;
+  padding: 70px 150px;
+  margin-top: 150px;
+  z-index: 10;
+  height: 362px;
+  left: 0;
+  height: 362px;
+  max-width: 1275px;
+  transform: translateY(-50%);
+  background-color: white;
 }/*# sourceMappingURL=main.css.map */

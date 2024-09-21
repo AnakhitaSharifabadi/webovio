@@ -9,16 +9,17 @@ font-weight: 700;
 line-height: 46px;
 text-align: left;
 color: $text-color;
+margin-bottom: 60px;
+max-width: 607px;
+
 }
 .product-idea-list{
     display: flex;
+    gap: 25px;
 }
 .product-idea-small-title{
-    width: 183px;
-    height: 68px;
-    top: 27px;
-    left: 30px;
-    gap: 0px;
+   max-width: 194px;
+   margin-bottom:30px ;
     opacity: 0px;
     font-family: Poppins;
 font-size: 24px;
@@ -26,27 +27,21 @@ font-weight: 500;
 line-height: 34px;
 text-align: left;
 color: $text-color;
+margin-bottom: 20px;
 }
 
 .product-idea-p{
-    width: 194px;
+    max-width: 194px;
 height: 78px;
-top: 115px;
-left: 30px;
-gap: 0px;
-opacity: 0px;
+margin-bottom: 30px;
 color: $p-color;
 }
 
-.start-title{
-    width: 822px;
-height: 148px;
-gap: 0px;
-opacity: 0px;
-font-family: Poppins;
-font-size: 60px;
-font-weight: 700;
-line-height: 74px;
-text-align: left;
-color: $text-color;
+
+.product-idea-item{
+    padding: 35px;
+display: flex;
+gap: 30px;
+flex-direction: column;
+align-items: flex-start;
 }

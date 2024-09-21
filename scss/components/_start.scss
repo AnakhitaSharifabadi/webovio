@@ -1,0 +1,24 @@
+.start-title{
+    width: 822px;
+height: 148px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 60px;
+font-weight: 700;
+line-height: 74px;
+text-align: left;
+color: $text-color;
+}
+ .start{
+     position: absolute;
+padding: 70px 150px;
+margin-top: 150px;
+z-index: 10;
+height: 362px;
+left: 0;
+height: 362px;
+max-width: 1275px;
+transform: translateY(-50%);
+background-color: white;
+ }
